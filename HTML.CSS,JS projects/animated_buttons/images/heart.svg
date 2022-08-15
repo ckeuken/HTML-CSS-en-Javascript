@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="391.99524"
+   height="330.17761"
+   viewBox="0 0 103.7154 87.359496"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="heart.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1589">heart</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="1.0842649"
+     inkscape:cx="195.98531"
+     inkscape:cy="165.08881"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-63.261273,-96.823063)">
+    <path
+       id="rect950"
+       style="fill:#f1322d;stroke-width:0;fill-opacity:1"
+       d="m 320.9668,365.94727 c -22.12741,0.13255 -42.62733,7.46273 -57.99805,22.47851 -37.83561,36.96192 -29.84039,106.08131 17.92578,154.97656 l 15.75586,16.12891 c 133.43945,136.5918 133.43945,136.5918 133.43945,136.5918 0,0 0,0 137.17188,-132.83985 L 586.6543,544.50195 C 635.75741,496.94948 645.66373,428.07847 608.86719,390.08203 572.07062,352.08556 502.91757,359.7776 453.81445,407.33008 L 433.82227,426.69141 417.48438,409.9668 C 389.12321,380.93524 353.30686,365.75354 320.9668,365.94727 Z"
+       transform="scale(0.26458333)"
+       sodipodi:nodetypes="sscccccscccs" />
+    <path
+       id="path824"
+       style="fill:#f11f1a;stroke-width:0;fill-opacity:1"
+       d="M 26.353516 159.04492 C 30.932018 165.40912 36.060837 171.58541 41.796875 177.45703 L 57.552734 193.58594 L 190.99219 330.17773 L 328.16406 197.33789 L 347.55664 178.55664 C 353.93613 172.37861 359.62035 165.82818 364.66016 159.04492 L 26.353516 159.04492 z "
+       transform="matrix(0.26458333,0,0,0.26458333,63.261273,96.823063)" />
+  </g>
+  <metadata
+     id="metadata1587">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>heart</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

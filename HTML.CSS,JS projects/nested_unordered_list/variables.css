@@ -1,0 +1,23 @@
+:root {
+    /*Color Pallet*/
+    --clr-purple: rgb(155, 97, 156);
+    --clr-light-purple: rgb(204, 182, 204);
+    --clr-purple-grey: rgb(102, 89, 102);
+    --clr-grey: hsl(0, 0%, 30%);
+    --clr-light-grey: rgb(230, 230, 230);
+    --clr-blue-violet: rgb(97, 99, 156);
+
+    --font-clr: #333;
+
+    /*font-sizes*/
+    --font-h1: 4rem;
+    --font-h2: 3.0rem;
+    --font-h3: 2.0rem;
+    --font-li: 1.5rem;
+    --font-btn: 1rem;
+
+    /*spacers*/
+    --spacer1: 1rem;
+    --spacer2: 2rem;
+    --spacer3: 3rem;
+}

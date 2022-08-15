@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* Groene kleur rgb(49, 179, 113)*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/*Algemeen*/
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 1rem;
+    border: 0;
+    border-radius: 0.625rem;
+    outline: none;
+    transition: 1s ease-out;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.1));
+}
+
+button:active {
+  transform: scale(0.8);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+button span:nth-child(1),
+button span:nth-child(3) {
+  position: absolute;
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/*Cart button*/
+.cart-button {
+    background: linear-gradient( hsl(46, 97%, 80%), hsl(46, 97%, 60%) );
+}
+
+.cart-button:hover {
+  background: linear-gradient( hsl(46, 97%, 77%), hsl(46, 97%, 57%) );
+}
+
+.cart-button .cart {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: -25%;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+}
+
+.cart-button span.add_to {
+    opacity: 1;
+    left: 10%;
+    top: 20%;
+}
+
+.cart-button span.added {
+    opacity: 0;
+    left: 27%;
+    top: 20%;
+}
+
+.cart-button.clicked .cart {
+    animation: cart 1.5s forwards;
+}
+
+.cart-button.clicked span.add_to {
+    animation: txt1 1.5s ease-in-out forwards;
+}
+
+.cart-button.clicked span.added {
+    animation: txt2 1.5s ease-in-out forwards;
+}
+
+  @keyframes cart {
+    0% {
+      left: -25%;
+    }
+    40%,
+    60% {
+      left: 50%;
+    }
+    100% {
+      left: 120%;
+    }
+  }
+
+  /*ook bij heart button keyframes txt1*/
+  @keyframes txt1 {
+    0% {
+      opacity: 1;
+    }
+    20%,
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes txt2 {
+    0%,
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /*Wishlist button*/
+  .heart-button {
+    background: linear-gradient( hsl(318, 54%, 80%) , hsl(318, 54%, 65%) );
+}
+
+.heart-button:hover {
+  background: linear-gradient( hsl(318, 54%, 78%) , hsl(318, 54%, 63%) );
+}
+
+.heart-button .heart {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  z-index: 2;
+  top: 20%;
+  left: 70%;
+  font-size: 1rem;
+}
+
+.heart-button span.add_to_wl {
+    opacity: 1;
+    left: 10%;
+    top: 20%;
+}
+
+.heart-button span.added_wl {
+    opacity: 0;
+    left: 10%;
+    top: 20%;
+}
+
+.heart-button.clicked_button .heart {
+  animation: heart 1.5s forwards;
+}
+
+.heart-button.clicked_button span.add_to_wl {
+  animation: txt1 1.5s ease-in-out forwards;
+}
+
+.heart-button.clicked_button span.added_wl {
+  animation: txt3 1.5s ease-in-out forwards;
+}
+
+@keyframes heart {
+  0% {
+    transform: translateY(-70px);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  70% {
+    transform: scale(5);
+  }
+
+  80% {
+    transform: scale(0.5);
+  }
+
+  85% {
+    transform: scale(0.8) translateY(5px);
+  }
+
+  87% {
+    transform: scale(1) translateY(15px);
+  }
+
+  92% {
+    transform: scale(1) translateY(35px);
+  }
+
+  100% {
+    transform: scale(1) translateY(70px);
+  }
+  
+}
+
+/*Voor txt 1 zie cart button keyframes*/
+
+@keyframes txt3 {
+  0%,
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    left: 25%;
+  }
+}

@@ -1,0 +1,19 @@
+:root {
+    /*Kleuren*/
+    --clr-oranje-hoedje: rgb(234,189,96);
+    --clr-oranje-span: hsl(40, 94%, 50%);
+    --hover-clr-button: hsl(40, 87%, 63%);
+
+    --font-clr: #333;
+    --clr-white: rgb(245, 245, 245);
+
+    /*Font-weight*/
+    --font-weight-medium: 400;
+    --font-weight-heavy: 700;
+
+    --curve: cubic-bezier(0.092, 0.70, 0.333, 1.13);
+
+    --animation-mode: forwards;
+
+    --transition-opacity: opacity 1s ease-in-out;
+}

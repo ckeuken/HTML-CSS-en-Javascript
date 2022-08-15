@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400"
+   height="200"
+   viewBox="0 0 105.83333 52.91667"
+   version="1.1"
+   id="svg1497"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="pasen.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title22048">pasen</title>
+  <sodipodi:namedview
+     id="namedview1499"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     showborder="false"
+     inkscape:snap-text-baseline="true"
+     inkscape:zoom="0.5"
+     inkscape:cx="397"
+     inkscape:cy="562"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     width="200px" />
+  <defs
+     id="defs1494">
+    <rect
+       x="-188.90804"
+       y="394.98953"
+       width="738.45874"
+       height="252.9182"
+       id="rect9910" />
+    <filter
+       inkscape:label="Speckle"
+       inkscape:menu="Overlays"
+       inkscape:menu-tooltip="Fill object with sparse translucent specks"
+       style="color-interpolation-filters:sRGB;"
+       id="filter22374"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feTurbulence
+         result="result1"
+         numOctaves="1"
+         baseFrequency="0.21"
+         type="fractalNoise"
+         id="feTurbulence22362" />
+      <feColorMatrix
+         result="result0"
+         in="SourceGraphic"
+         type="luminanceToAlpha"
+         id="feColorMatrix22364" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.8 0"
+         result="result2"
+         id="feColorMatrix22366" />
+      <feComposite
+         in="result1"
+         operator="over"
+         in2="result2"
+         id="feComposite22368" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 20 -14"
+         result="result91"
+         id="feColorMatrix22370" />
+      <feComposite
+         operator="out"
+         in="SourceGraphic"
+         in2="result91"
+         id="feComposite22372" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.27503954,0,0,0.45053235,58.716557,-191.84422)"
+       id="text9908"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:146.406px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact, Condensed';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:7px;white-space:pre;shape-inside:url(#rect9910);fill:#9f53ff;fill-opacity:1;filter:url(#filter22374)"
+       x="233.95312"
+       y="0"><tspan
+         sodipodi:role="line"
+         id="tspan9912"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:146.406px;font-family:Impact;-inkscape-font-specification:'Impact, Condensed';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#9f53ff;fill-opacity:1">Pasen</tspan></text>
+  </g>
+  <metadata
+     id="metadata22046">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>pasen</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

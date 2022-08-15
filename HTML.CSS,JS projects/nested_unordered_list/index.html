@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="variables.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<header>
+
+    <button id="btn" onclick="mySnackbar()">gewicht stoffen</button>
+    <br>
+    <h1>Stof voor:</h1>
+    
+    <div id="snackbar">
+        <table>
+            <th>stof</th>
+            <th>gewicht g/m <sup>2</sup></th>
+            <tr>
+                <td>dun</td>
+                <td>tot 190</td>
+            </tr>
+            <tr>
+                <td>middelzwaar</td>
+                <td>200-230</td>
+            </tr>
+            <tr>
+                <td>zwaar</td>
+                <td>> 230</td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+<ul id="main-ul">
+        <ul>Clutch <br> <span class="caret"></span>
+                <ul class="nested clutch">
+                    <li id="materiaal"><h3>Materiaal:</h3></li>
+                    <li><a href="#">Goblin</a></li>
+                    <li><a href="#">Boulce</a></li>
+                    <li><a href="#">Tweed</a></li>
+                    <li><a href="#">Canvas</a></li>
+                    <li><a href="#">Jacquard</a></li>
+                    <br>
+                    <li id="binnenvoering"><h3>Binnenvoering:</h3></li>
+                    <li><a href="#">Molton</a></li>
+                    <li><a href="#">Vlieseline</a></li>
+                </ul><!--nested-->   
+            </ul><!--eerste caret-->
+            <br>
+            <ul>Kussensloop <br> <span class="caret"></span>
+                <ul class="nested kussensloop">
+                    <li id="materiaal"><h3>Materiaal:</h3></li><!--tweede caret-->
+                    <li><a href="#">Goblin</a></li>
+                    <li><a href="#">Interieurstof</a></li>
+                    <li><a href="#">Gordijnstof</a></li>
+                    <li><a href="#">Velours</a></li>
+                </ul><!--eerste nested-->
+            </ul><!--eerste caret-->
+            <br>
+            <ul>Joggingbroek <br> <span class="caret"></span>
+                <ul class="nested jogging">
+                    <li id="materiaal"><h3>Materiaal:</h3></li><!--tweede caret-->
+                    <li><a href="#">Sweat stof</a></li>
+                    <li><a href="#">French Terry</a></li>
+                </ul><!--eerste nested-->
+            </ul><!--eerste caret-->
+            <br>
+            <ul>Jurk <br> <span class="caret"></span>
+                <ul class="nested jurk">
+                    <li id="materiaal"><h3>Materiaal:</h3></li><!--tweede caret-->
+                    <li><a href="#">Tricot</a></li>
+                    <li><a href="#">Jersey</a></li>
+                    <li><a href="#">Viscose</a></li>
+                </ul><!--eerste nested-->
+            </ul><!--eerste caret-->
+</ul><!--main ul--> 
+
+<script src="script.js"></script>
+</body>
+</html>

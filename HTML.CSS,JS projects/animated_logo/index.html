@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Animated Logo</title>
+</head>
+<body>
+    <figure id="shining">
+        <img src="./images/heartlogo2.svg" id="heartlogo2" alt="heart logo2">
+        <figcaption>Leif</figcaption>
+    </figure>
+
+    <script>
+         const firstTimeout = setTimeout(changeImg, 1000);
+        
+           function changeImg() {
+            var logo = document.getElementById("heartlogo2");
+            logo.src = "heartlogo_open.svg";
+            logo.style.transition = "transform 0.8s cubic-bezier(0,1.51,.87,1.12)";
+            logo.style.transform = "rotate(360deg)";
+        }
+    
+
+       
+
+       
+    
+    </script>
+</body>
+</html>
